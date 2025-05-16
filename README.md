@@ -6,6 +6,7 @@
 # program 1B
 - **programa1b** -(  https://github.com/rithika2705/Java_programming/blob/main/program1b.java)
 - **program1b.1-output** -(https://github.com/rithika2705/Java_programming/blob/main/1b.1.png)
-- **program1b.2-output** -(https://github.com/rithika2705/Java_programming/blob/main/1b.1.png)
+- **program1b.2-output** -(https://github.com/rithika2705/Java_programming/blob/main/1b.2.png)
+- **program1b.3-output** -(https://github.com/rithika2705/Java_programming/blob/main/1b.3.png)
 
        

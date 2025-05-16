@@ -124,5 +124,53 @@ public static void main(String[] args) {
 	    }
 	}
 
+//----------> 5) Write a java program for getting different colors through ArrayList interface and delete nth element from the ArrayList object by using remove by index
+
+
+package array;
+import java.util.*;
+public class p1 {
+public static void main(String[] args) {
+	        // Create an ArrayList to store colors
+	        ArrayList<String> c = new ArrayList<>();
+
+	        // Add colors to the list
+	        c.add("Red");
+	        c.add("Green");
+	        c.add("Blue");
+	        c.add("Yellow");
+	        c.add("Purple");
+
+	        // Display the original list
+	        System.out.println("Original list: " + c);
+
+	        // Create a Scanner object for user input
+	        Scanner scanner = new Scanner(System.in);
+
+	        // Prompt the user to enter the position (n) of the element to remove
+	        System.out.print("Enter the position (1-based index) of the color to remove: ");
+	        int n = scanner.nextInt();
+
+	        // Convert to 0-based index
+	        int indexToRemove = n - 1;
+
+	        // Check if the index is within bounds
+	        if (indexToRemove >= 0 && indexToRemove < c.size()) {
+	            // Remove the element at the specified index
+	            String removedColor = c.remove(indexToRemove);
+	            System.out.println("Removed color: " + removedColor);
+	        } else {
+	            System.out.println("Invalid position. Please enter a number between 1 and " + c.size());
+	        }
+
+	        // Display the updated list
+	        System.out.println("Updated list: " + c);
+
+	        // Close the scanner
+	        scanner.close();
+	    }
+	}
+
+
 
 	

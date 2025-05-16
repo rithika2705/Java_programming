@@ -63,3 +63,33 @@ public static void main(String[] args) {
 	        System.out.println("Updated list: " + c);
 	    }
 	}
+
+
+
+//--------------> 3) Write a java program for getting different colors through ArrayList interface and sort them using Collections.sort( ArrayListObj)
+
+
+package array;
+import java.util.*;
+public class p1 {
+public static void main(String[] args) {
+	        // Create an ArrayList to store colors
+	        ArrayList<String> c = new ArrayList<>();
+
+	        // Add colors to the list
+	        c.add("Blue");
+	        c.add("Green");
+	        c.add("Red");
+	        c.add("Yellow");
+	        c.add("Purple");
+
+	        // Display the original list
+	        System.out.println("Original list: " + c);
+
+	        // Sort the list in ascending order
+	        Collections.sort(c);
+
+	        // Display the sorted list
+	        System.out.println("Sorted list: " + c);
+	    }
+	}

@@ -93,3 +93,36 @@ public static void main(String[] args) {
 	        System.out.println("Sorted list: " + c);
 	    }
 	}
+
+
+
+//--------> 4) Write a java program for getting different colors through ArrayList interface and extract the
+elements 1st and 2nd from the ArrayList object by using SubList()
+
+      package array;
+import java.util.*;
+public class p1 {
+public static void main(String[] args) {
+	        // Create an ArrayList to store colors
+	        ArrayList<String> c = new ArrayList<>();
+
+	        // Add colors to the list
+	        c.add("Red");
+	        c.add("Green");
+	        c.add("Blue");
+	        c.add("Yellow");
+	        c.add("Purple");
+
+	        // Display the original list
+	        System.out.println("Original list: " + c);
+
+	        // Extract the first and second elements using subList
+	        List<String> subList = c.subList(0, 2);
+
+	        // Display the extracted sublist
+	        System.out.println("Extracted sublist (first and second elements): " + subList);
+	    }
+	}
+
+
+	
